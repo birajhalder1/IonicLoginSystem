@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>intro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides mode="ios" pager="ios" scrollbar="ios">
+    <!-- slider 1 -->
+    <ion-slide>
+      <ion-text color="light">
+        <img
+          src="https://res.cloudinary.com/dr8cpdoyo/image/upload/v1606375086/sample.jpg"
+          alt=""
+        />
+        <h1>Awesome text</h1>
+        <p>This is slide contain</p>
+        <ion-button (click)="next()" fill="outline" color="light">
+          Next
+        </ion-button>
+      </ion-text>
+    </ion-slide>
+
+    <!-- slider 2 -->
+    <ion-slide>
+      <ion-text color="light">
+        <img
+          src="https://res.cloudinary.com/dr8cpdoyo/image/upload/v1606073702/qlfiynawnelblcbvubar.jpg"
+          alt=""
+        />
+        <h1>Awesome text</h1>
+        <p>This is slide contain</p>
+        <ion-button (click)="start()" fill="outline" color="light">
+          Start
+        </ion-button>
+      </ion-text>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
